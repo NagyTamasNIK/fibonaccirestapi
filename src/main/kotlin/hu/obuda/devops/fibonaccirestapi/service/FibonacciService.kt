@@ -12,7 +12,7 @@ class FibonacciService {
         else
         //else 0 // TODO instead of this logic implement fibonacci
     }*/
-    fun fibonacci(n: Int): Int {
+    public fun fibonacci(n: Int): Int {
         if (n <= 1) return n
 
         var a = 0
