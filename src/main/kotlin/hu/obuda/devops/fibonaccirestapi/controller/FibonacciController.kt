@@ -31,5 +31,6 @@ class FibonacciController {
             return ResponseEntity.badRequest().body("n must be less than or equal to 46")
         }
         return ResponseEntity.ok(fibonacciService?.fibonacci(n))
+
     }
 }
